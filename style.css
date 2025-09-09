@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #131921;
+    color: #FFFFFF;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    margin-left:15px ;
+    margin-top:10px ;
+    width: 70%;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    margin-right: 10px;
+    /* flex-direction: column; */
+}
+.search-bar{
+    border: none;
+    border-radius: 5px;
+    width: 45vw ;
+    height: 2rem;
+    padding:0 8px;
+}
+
+.sub-navbar ul{
+    background-color: #232f3e;
+    color: #FFFFFF;
+    padding: 15px;
+    display: flex;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    
+}
+ .sub-navbar ul li{
+    padding: 1px;
+ }
+ .sub-navbar ul li:hover {
+  border: 1px solid white;
+  /* padding: 2px; */
+  cursor: pointer;          
+  /* color: #000;          */
+}
+.hero img{
+    width: 99vw;
+    /* height: 20vh; */
+}
+.container {
+    margin-top: -340px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    border: 1px solid red;
+
+}
+
+.child1 {
+    border: 1px dotted black;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.child-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.grid-element {
+    font-size: small;
+}
+
+
+.grid-element {
+    height: auto;
+    width: 100px;
+}
+
+.grid-element img,
+.grid-element img,
+.grid-element img,
+.grid-element img {
+    width: 100%;
+}
+
+.child3 {
+    border: 1px solid;
+    background-color: blue;
+}
+
+.child4 {
+    border: 1px solid;
+    background-color: orange;
+}
+.back-to-top{
+    background-color: #37475a;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+}
+
+.footer{
+    padding: 50px;
+    background-color: #232f3e;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+.footer .col{
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.col ul{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    gap: 8px;
+}
+
+ .col ul li:hover
+    {
+    text-decoration: underline;
+    cursor: pointer;
+
+    }

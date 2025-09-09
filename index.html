@@ -1,168 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
+    <link rel="stylesheet" href="style.css">
 
-        .container{
-            display: grid;
-            grid-template-columns: repeat(4,1fr);
-            grid-template-rows:auto;
-            border: 1px solid red;
-
-        }
-        .child1{
-            border: 1px dotted black;
-            padding: 40px;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .child-grid{
-            display: grid;
-            grid-template-columns: repeat(2,1fr) ;
-            grid-template-rows: repeat(2,1fr) ;
-        }
-        .grid-element {
-            font-size: small;
-        }
-
-
-        .grid-element{
-            height: auto;
-            width: 100px;
-        }
-        .grid-element img, .grid-element img, .grid-element img, .grid-element img{
-            width: 100%;
-        }
-        .child3{
-            border: 1px solid;
-            background-color: blue;
-        }
-        .child4{
-            border: 1px solid;
-            background-color: orange;
-        }
-
-        /* p:nth-child(2){
-            background-color: blue;
-            color: white;
-        }
-        div p:nth-child(1){
-            background-color: gray;
-            color: white;    
-        } */
-    </style>
 </head>
+
 <body>
 
+    <div class="navbar">
+        <ul>
+            <li>
+                <img class="logo" src="logo.png" alt="">
+            </li>
+            <li>
+                Delivering to Ghaziabad 201009
+            </li>
+            <li>
+                <input class="search-bar" type="text" name="" id="" placeholder="Search Amazon.in">
+            </li>
+            <li>
+                Hello, sign in
+                Account
+            </li>
+            <li>
+                Returns & Orders
+            </li>
+            <li>
+                Cart
+            </li>
+        </ul>
+    </div>
+
+
+
+    <div class="sub-navbar">
+        <ul>
+            <li>All</li>
+            <li>Fresh</li>
+            <li>MX Player</li>
+            <li>Sell</li>
+            <li>Bestsellers</li>
+            <li>Deals</li>
+            <li>Mobiles</li>
+            <li>Prime</li>
+            <li>Customer Service</li>
+            <li>New Releases</li>
+            <li>Electronics</li>
+            <li>Fashion</li>
+            <li>Home & Kitchen</li>
+            <li>Amazon Pay</li>
+            <li>Computers</li>
+            <li>Books</li>
+        </ul>
+    </div>
+    <div class="hero">
+        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IN/Prime/GIF/1/Jupiter25_H1_Prime_PC_2_2x._CB801695360_.jpg"
+            alt="" srcset="">
+    </div>
     <div class="container">
         <div class="child1">
             <h3>Revamp your home in style</h3>
-            
+
             <div class="child-grid">
                 <div class="grid-element">
-                    <img  src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/2x/372x232_Home_furnishings_2._SY232_CB555629502_.jpg" alt="">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/2x/372x232_Home_furnishings_2._SY232_CB555629502_.jpg"
+                        alt="">
                     <p>Cushion covers, bedsheets &amp; more</p>
                 </div>
                 <div class="grid-element">
-                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/2x/372x232_Home_decor_1._SY232_CB555629502_.jpg" alt="">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/2x/372x232_Home_decor_1._SY232_CB555629502_.jpg"
+                        alt="">
                     <p>Figurines, vases & more</p>
                 </div>
                 <div class="grid-element">
-                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/2x/372x232_Home_storage_1._SY232_CB555629502_.jpg" alt="">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/2x/372x232_Home_storage_1._SY232_CB555629502_.jpg"
+                        alt="">
                     <p>Home Storage</p>
                 </div>
                 <div class="grid-element">
-                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/2x/372x232_Home_lighting_2_-_Copy._SY232_CB555629502_.jpg" alt="">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/2x/372x232_Home_lighting_2_-_Copy._SY232_CB555629502_.jpg"
+                        alt="">
                     <p>Lighting Solution</p>
                 </div>
             </div>
         </div>
         <div class="child1">
             <h3>Appliances for your home | Up to 55% off</h3>
-            
+
             <div class="child-grid">
                 <div class="grid-element">
-                    <img  src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-372x232----B08RDL6H79._SY232_CB667322346_.jpg" alt="">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-372x232----B08RDL6H79._SY232_CB667322346_.jpg"
+                        alt="">
                     <p>Cushion covers, bedsheets &amp; more</p>
                 </div>
                 <div class="grid-element">
-                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/B08345R1ZW---372x232._SY232_CB667322346_.jpg" alt="">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/B08345R1ZW---372x232._SY232_CB667322346_.jpg"
+                        alt="">
                     <p>Figurines, vases & more</p>
                 </div>
                 <div class="grid-element">
-                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/B07G5J5FYP._SY232_CB667322346_.jpg" alt="">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/B07G5J5FYP._SY232_CB667322346_.jpg"
+                        alt="">
                     <p>Home Storage</p>
                 </div>
                 <div class="grid-element">
-                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08CPQVLZT._SY232_CB667322346_.jpg" alt="">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08CPQVLZT._SY232_CB667322346_.jpg"
+                        alt="">
                     <p>Lighting Solution</p>
                 </div>
             </div>
         </div>
         <div class="child1">
             <h3>Starting ₹149 | Headphones</h3>
-            
+
             <div class="child-grid">
                 <div class="grid-element">
-                  <img  src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/GW/QC/PC/PC_QuadCard_boAt._SY232_CB553870684_.jpg" alt="">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/GW/QC/PC/PC_QuadCard_boAt._SY232_CB553870684_.jpg"
+                        alt="">
                     <p>Cushion covers, bedsheets &amp; more</p>
                 </div>
                 <div class="grid-element">
-                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/GW/QC/PC/PC_QuadCard_Boult._SY232_CB553870684_.jpg" alt="">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/GW/QC/PC/PC_QuadCard_Boult._SY232_CB553870684_.jpg"
+                        alt="">
                     <p>Figurines, vases & more</p>
                 </div>
                 <div class="grid-element">
-                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/GW/QC/PC/PC_QuadCard_Noise._SY232_CB553870684_.jpg" alt="">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/GW/QC/PC/PC_QuadCard_Noise._SY232_CB553870684_.jpg"
+                        alt="">
                     <p>Home Storage</p>
                 </div>
                 <div class="grid-element">
-                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/MSO/PD3/PC_QuadCard_Zeb_1._SY232_CB570220221_.jpg" alt="">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/MSO/PD3/PC_QuadCard_Zeb_1._SY232_CB570220221_.jpg"
+                        alt="">
                     <p>Lighting Solution</p>
                 </div>
             </div>
         </div>
         <div class="child1">
             <h3>Under ₹499 | Deals on home improvement essentials</h3>
-            
+
             <div class="child-grid">
                 <div class="grid-element">
-                    <img  src="https://images-eu.ssl-images-amazon.com/images/G/31/img18/HomeImprovement/harsmisc/2025/March/Cleaning_wipes_hi-res_v3._SY232_CB549134196_.jpg" alt="">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img18/HomeImprovement/harsmisc/2025/March/Cleaning_wipes_hi-res_v3._SY232_CB549134196_.jpg"
+                        alt="">
                     <p>Cushion covers, bedsheets &amp; more</p>
                 </div>
                 <div class="grid-element">
-                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img18/HomeImprovement/harsmisc/2025/March/Shower_head__hi-res_v3._SY232_CB549134196_.jpg" alt="">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img18/HomeImprovement/harsmisc/2025/March/Shower_head__hi-res_v3._SY232_CB549134196_.jpg"
+                        alt="">
                     <p>Figurines, vases & more</p>
                 </div>
                 <div class="grid-element">
-                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img18/HomeImprovement/harsmisc/2025/March/Tools__hi-res_v3._SY232_CB549134196_.jpg" alt="">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img18/HomeImprovement/harsmisc/2025/March/Tools__hi-res_v3._SY232_CB549134196_.jpg"
+                        alt="">
                     <p>Home Storage</p>
                 </div>
                 <div class="grid-element">
-                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img18/HomeImprovement/harsmisc/2025/March/Wallpapers__hi-res_v3._SY232_CB549134196_.jpg" alt="">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img18/HomeImprovement/harsmisc/2025/March/Wallpapers__hi-res_v3._SY232_CB549134196_.jpg"
+                        alt="">
                     <p>Lighting Solution</p>
                 </div>
             </div>
         </div>
-        
-        
+
+
+    </div>
+        <div class="back-to-top">
+            <div>
+                Back To Top
+            </div>
+        </div>
+    <div class="footer">
+        <div class="col">
+            <h3>
+                Get to Know Us
+            </h3>
+            <ul>
+                <li>Get to Know Us</li>
+                <li>About Amazon</li>
+                <li>Careers</li>
+                <li>Press Releases</li>
+                <li>Amazon Science</li>
+            </ul>
+        </div>
+        <div class="col">
+            <h3>
+                Connect with Us
+            </h3>
+            <ul>
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+            </ul>
+
+        </div>
+        <div class="col">
+            <h3>
+                Make Money with Us
+            </h3>
+            <ul>
+                <li>Sell on Amazon</li>
+                <li>Sell under Amazon Accelerator</li>
+                <li>Protect and Build Your Brand</li>
+                <li>Amazon Global Selling</li>
+                <li>Supply to Amazon</li>
+                <li>Become an Affiliate</li>
+                <li>Fulfilment by Amazon</li>
+                <li>Advertise Your Products</li>
+                <li>Amazon Pay on Merchants</li>
+            </ul>
+
+        </div>
+        <div class="col">
+            <h3>Let Us Help You</h3>
+            <ul>
+                <li>Your Account</li>
+                <li>Returns Centre</li>
+                <li>Recalls and Product Safety Alerts</li>
+                <li>100% Purchase Protection</li>
+                <li>Amazon App Download</li>
+                <li>Help</li>
+            </ul>
+        </div>
     </div>
 
-<!--     
-    <div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur maiores unde quisquam ut! Quisquam cum inventore voluptatem amet cupiditate at!</p>
-        <span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        </span>
-    </div>
-        <p>
-            Lorem ipsum dolor sit.
-        </p>
-        <p>
-            Hello
-        </p> -->
+
+
 </body>
+
 </html>
