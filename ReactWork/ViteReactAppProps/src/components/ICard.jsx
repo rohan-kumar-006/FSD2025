@@ -1,6 +1,7 @@
 import React from 'react'
 
-const ICard = (props) => {
+const ICard = ({props}) => {
+    // console.log(props)
     return (
         <>
             <div className="main-component">

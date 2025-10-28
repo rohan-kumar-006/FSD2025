@@ -4,16 +4,38 @@ import Gallery from './components/Gallery'
 import ICard from './components/ICard'
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  const student=[
+    {
+    name:"Ram",
+    age:20,
+    branch:"CSE",
+    college:"ABES",
+    location:"Ghaziabad"
+  },
+    {
+    name:"Rajveer",
+    age:20,
+    branch:"CSE",
+    college:"ABES",
+    location:"Ghaziabad"
+  },
+    {
+    name:"Pratik",
+    age:20,
+    branch:"CSE",
+    college:"ABES",
+    location:"Ghaziabad"
+  },
+]
 
   return (
     <>
     <div className="idcard-container">
 
-    <ICard name="Ramprakash" age="21" branch="CSE" college="ABES" location="Ghaziabad"/>
-    <ICard name="Ramprakash" age="21" branch="CSE" college="ABES" location="Ghaziabad"/>
-    <ICard name="Ramprakash" age="21" branch="CSE" college="ABES" location="Ghaziabad"/>
-    <ICard name="Ramprakash" age="21" branch="CSE" college="ABES" location="Ghaziabad"/>
+    {student.map((st)=>{
+      return <ICard props={st}/>
+    })}
     </div>
     </>
   )
